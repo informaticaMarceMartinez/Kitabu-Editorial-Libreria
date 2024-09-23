@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../web/css/estilos.css">
+    <title>Editorial Kitabu</title>
+</head>
+
+<body>
+    <!-- Voy a utilizar el metodo de insertar con iFrame cada sector de la web principal-->
+    
+    <header>
+        <!-- Agrego con iFrame el menú y el header-->
+        <iframe class="menu" src="../web/menu_nav/menu.html" frameborder="0" scrolling="no"></iframe>
+        <iframe class="header" src="../web/header/header.html" frameborder="0" scrolling="no"></iframe>
+    </header>
+
+    <h2 id="novedad">Novedades</h2>
+
+    <!-- Defino las secciones y sus articulos correspondientes, que son iFrame de cada uno de los libros a mostrar en la web -->
+    <section id="principal">
+        <article class="elemento">
+            <iframe class="frame" scrolling="no" src="../web/libros/libro1.html"></iframe>
+        </article>
+        <article class="elemento">
+            <iframe class="frame" scrolling="no" src="../web/libros/libro2.html"></iframe>
+        </article>
+        <article class="elemento">
+            <iframe class="frame" scrolling="no" src="../web/libros/libro3.html"></iframe>
+        </article>
+        <article class="elemento">
+            <iframe class="frame" scrolling="no" src="../web/libros/libro4.html"></iframe>
+        </article>
+        <article class="elemento">
+            <iframe class="frame" scrolling="no" src="../web/libros/libro5.html"></iframe>
+        </article>
+        <article class="elemento">
+            <iframe class="frame" scrolling="no" src="../web/libros/libro6.html"></iframe>
+        </article>
+        <article class="elemento">
+            <iframe class="frame" scrolling="no" src="../web/libros/libro7.html"></iframe>
+        </article>
+        <article class="elemento">
+            <iframe class="frame" scrolling="no" src="../web/libros/libro8.html"></iframe>
+        </article>
+    </section>
+
+    <h2 id="recomienda">Recomendaciones</h2>
+
+    <section id="principal">
+        <article class="elemento">
+            <iframe class="frame" scrolling="no" src="../web/libros/libro9.html"></iframe>
+        </article>
+        <article class="elemento">
+            <iframe class="frame" scrolling="no" src="../web/libros/libro10.html"></iframe>
+        </article>
+        <article class="elemento">
+            <iframe class="frame" scrolling="no" src="../web/libros/libro11.html"></iframe>
+        </article>
+        <article class="elemento">
+            <iframe class="frame" scrolling="no" src="../web/libros/libro12.html"></iframe>
+        </article>
+        <article class="elemento">
+            <iframe class="frame" scrolling="no" src="../web/libros/libro2.html"></iframe>
+        </article>
+        <article class="elemento">
+            <iframe class="frame" scrolling="no" src="../web/libros/libro4.html"></iframe>
+        </article>
+       
+    </section>
+
+    <!-- Defino la zona del pie de página donde inserto 3 iFrame, la palabra del logo empresa, las -->
+     <!-- redes sociales y mi pie de pagina con el link a mi CV y a mi Linkedin -->
+    <footer>
+        <iframe class="pieElemento" src="../web/footer/footer.html" scrolling="no" frameborder="0"></iframe>
+        <iframe class="pieElemento" src="../web/redes_sociales/redes.html" scrolling="no" frameborder="0"></iframe>
+        <iframe class="pieFirma" src="../web/firma.html" scrolling="no" frameborder="0"></iframe>
+    </footer>
+</body>
+</html>
