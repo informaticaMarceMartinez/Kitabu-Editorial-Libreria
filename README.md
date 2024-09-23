@@ -40,7 +40,7 @@ KITABU/
 
 
 ## Instalación y Uso
-1. Clona este repositorio o descarga la carpeta `web`.
+1. Clona este repositorio o crea una carpeta llamada `web` en tu ordenador, y descarga todo el contenido del repo en ella.
 2. Abre el archivo `index.html` en tu navegador web.
 3. Navega por el catálogo y disfruta de la experiencia interactiva.
 
